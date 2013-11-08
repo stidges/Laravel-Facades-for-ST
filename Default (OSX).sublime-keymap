@@ -1,0 +1,3 @@
+[
+    { "keys": ["shift+super+f12"], "command": "inline_facades"  }
+]
