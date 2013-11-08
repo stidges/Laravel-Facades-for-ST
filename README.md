@@ -1,4 +1,4 @@
-# Laravel 4 Facades
+# Laravel 4 Facades for Sublime Text
 
 This [Sublime Text](http://www.sublimetext.com) package offers easy access to the Laravel 4 facades.
 
