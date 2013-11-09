@@ -3,7 +3,7 @@ import sublime, sublime_plugin, os.path
 facades = {
     'App': 'Foundation/Application.php',
     'Artisan': 'Foundation/Artisan.php',
-    'Auth': 'Auth/AuthManager.php',
+    'Auth': 'Auth/Guard.php',
     'Blade': 'View/Compilers/BladeCompiler.php',
     'Cache': 'Cache/CacheManager.php',
     'Config': 'Config/Repository.php',
