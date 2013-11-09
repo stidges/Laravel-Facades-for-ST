@@ -5,7 +5,7 @@ facades = {
     'Artisan': 'Foundation/Artisan.php',
     'Auth': 'Auth/Guard.php',
     'Blade': 'View/Compilers/BladeCompiler.php',
-    'Cache': 'Cache/FileStore.php',
+    'Cache': 'Cache/Repository.php',
     'Config': 'Config/Repository.php',
     'Cookie': 'Cookie/CookieJar.php',
     'Crypt': 'Encryption/Encrypter.php',
@@ -28,7 +28,7 @@ facades = {
     'Response': 'Support/Facades/Response.php',
     'Route': 'Routing/Router.php',
     'Schema': 'Database/Schema/Builder.php',
-    'Session': 'Session/FileSessionHandler.php',
+    'Session': 'Session/Store.php',
     'SSH': 'Remote/Connection.php',
     'URL': 'Routing/UrlGenerator.php',
     'Validator': 'Validation/Factory.php',
@@ -39,7 +39,7 @@ def _open_facade_file(window, file):
     root_folder = window.folders()[0] + "/"
     laravel_root = "vendor/laravel/framework/src/Illuminate/"
     path = os.path.join(root_folder, laravel_root, file)
-    sublime.status_message(path)
+
     if(os.path.exists(path)):
         window.open_file(path)
     else:
