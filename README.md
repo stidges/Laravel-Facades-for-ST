@@ -20,6 +20,7 @@ Clone this repository (or extract the downloaded ZIP file) to your Sublime Text 
 
 ### Updates ###
 
+* v1.1.2 - Changed Manager classes to the default implementation (Thanks to [Bastian Hofmann](https://github.com/BastianHofmann) for pointing this out).
 * v1.1.1 - Added menu to `Preferences > Package Settings` to make customizing key bindings easier.
 * v1.1.0 - Open Facade class under the current cursor. (November 7, 2013)
 * v1.0.0 - Initial version. (November 7, 2013)
