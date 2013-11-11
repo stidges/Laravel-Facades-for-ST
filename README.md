@@ -20,6 +20,7 @@ Clone this repository (or extract the downloaded ZIP file) to your Sublime Text 
 
 ### Updates ###
 
+* v1.1.4 - Fixed invalid JSON in Main.sublime-menu (Thanks to [Chris Magnussen](https://github.com/ChrisRM)). (November 11, 2013)
 * v1.1.3 - Changed `Cache` and `Session` driver to point to `Repository` / `Store` class instead of specific implementation. (November 8, 2013)
 * v1.1.2 - Changed `Manager` classes to the default implementation (Thanks to [Bastian Hofmann](https://github.com/BastianHofmann) for pointing this out). (November 8, 2013)
 * v1.1.1 - Added menu to `Preferences > Package Settings` to make customizing key bindings easier.
